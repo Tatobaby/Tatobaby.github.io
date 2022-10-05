@@ -1,0 +1,22 @@
+.main-s{
+    height: 100%;
+}
+.h3_artista{
+    margin: 3%;
+}
+.artista-img{
+    display: flex;
+    justify-content: space-evenly;
+}
+.img-art{
+    max-width: 100px;
+    height: 100%;
+    width: 100%;
+}
+.cont-artista{
+    display: inline-block;
+}
+@media screen and (min-width: 600px) {
+}
+@media screen and (max-width: 600px) {
+}
