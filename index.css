@@ -95,6 +95,13 @@ h2{
         top: 70%;
     }
 }
+@media screen and (max-height: 600px) {
+    .link{
+        position: relative;
+        bottom: 70px;
+    }
+    
+}
 @media screen and (max-width: 600px){
     body, html{
         height: 92%;
