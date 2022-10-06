@@ -74,12 +74,12 @@ footer{
 .footer-text:first-child{
     margin-bottom: 2%;
 }
-@media screen and (max-width: 1150px) {
+@media screen and (max-width: 1350px) {
     .canciones .artistas-cont .cont-artista{
-        padding:  11% 2% 0 2%;
+        padding:  12% 2% 0 2%;
     }
     .albumes .artistas-cont .cont-artista{
-        padding:  11% 2% 0 2%;
+        padding:  12% 2% 0 2%;
     }
 }
 @media screen and (max-width: 600px) {
