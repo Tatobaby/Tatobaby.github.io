@@ -127,7 +127,7 @@ h2{
         max-width: 55px;
         z-index: 10;
         border-radius: 10px;
-        transition: width .5s, height .5s;
+        transition: width .5s, height .3s;
     }
     ol{
         position: absolute;

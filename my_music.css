@@ -2,21 +2,88 @@
     height: 100%;
 }
 .h3_artista{
+    font-size: 150%;
     margin: 3%;
 }
-.artista-img{
+.artistas-cont{
     display: flex;
     justify-content: space-evenly;
-}
-.img-art{
-    max-width: 100px;
-    height: 100%;
-    width: 100%;
+    flex-wrap: wrap;
 }
 .cont-artista{
+    max-width: 170px;
     display: inline-block;
+    min-width: 80px;
+    padding:  0 2% 0 2%;
+    text-align: center;
 }
-@media screen and (min-width: 600px) {
+.img-art{
+    height: 80%;
+    width: 100%;
+    object-fit: cover;
+    margin-bottom: 4%;
+    border-radius: 50%;
+}
+.img-art:hover,.img-can:hover{
+    height: 79%;
+    width: 99%;
+}
+.nom,.nom-a{
+    display: flex;
+    justify-content: center;
+}
+.nom-a{
+    margin-top: 5%;
+}
+.link-artista{
+    color: #ccc;
+    text-decoration: none;
+}
+.link-artista-p{
+    color: #fff;
+    text-decoration: none;
+}
+.link-artista::first-letter{
+    background-color: #777;
+    font-size: 100%;
+    padding: 0 3% 0 3%;
+    margin-right: 5%;
+    border-radius: 30%;
+    color: black;
+}
+.link-artista:hover,.link-artista-p:hover{
+    color: #aaa;
+}
+.img-can{
+    border-radius: 10%;
+    height: 80%;
+    width: 100%;
+    object-fit: cover;
+    margin-bottom: 4%;
+}
+footer{
+    width: 100%;
+    height: 150px;
+    background: rgb(9, 9, 41);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 8%;
+    flex-direction: column;
+}
+.footer-text:first-child{
+    margin-bottom: 2%;
+}
+@media screen and (max-width: 1150px) {
+    .canciones .artistas-cont .cont-artista{
+        padding:  11% 2% 0 2%;
+    }
+    .albumes .artistas-cont .cont-artista{
+        padding:  11% 2% 0 2%;
+    }
 }
 @media screen and (max-width: 600px) {
+    .h3_artista{
+        margin: 7%;
+    }
 }
